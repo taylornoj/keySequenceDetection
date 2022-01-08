@@ -10,7 +10,13 @@
 <body>
   <script>
    const pressed = [];
-   const secretCode = '';
+   const secretCode = 'taylor';
+
+   // listen for keyup event and when it happens, run function
+   window.addEventListener('keyup', (e) => {
+     // telling us the name of the key pressed
+     console.log(e.key)
+   })
   </script>
 </body>
 
