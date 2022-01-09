@@ -1,0 +1,54 @@
+/* .instruct {
+  font-family: 'Press Start 2P', cursive;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+} */
+
+.neon {
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 5px #fff,
+    0 0 5px #fff,
+    0 0 20px #0ff,
+    0 0 10px #0ff,
+    0 0 20px #0ff,
+    0 0 10px #0ff,
+    0 0 20px #0ff;
+}
+
+
+/* general styling */
+ :root {
+  font-size: calc(1vw + 1vh + 1.5vmin);
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+} 
+ 
+.container {
+  margin: 0 auto;
+}
+
+body {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #010a00;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Press Start 2P', cursive; 
+
+}
+
+h2 {
+  font-weight: 100;
+  text-align: center;
+  text-transform: uppercase;
+}
