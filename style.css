@@ -1,54 +1,38 @@
-/* .instruct {
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%
+}
+
+body {
   font-family: 'Press Start 2P', cursive;
+  background-color: #010a00;
+}
+  
+div {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
-} */
-
-.neon {
-  color: #fff;
-  text-shadow:
-    0 0 5px #fff,
-    0 0 5px #fff,
-    0 0 5px #fff,
-    0 0 20px #0ff,
-    0 0 10px #0ff,
-    0 0 20px #0ff,
-    0 0 10px #0ff,
-    0 0 20px #0ff;
-}
-
-
-/* general styling */
- :root {
-  font-size: calc(1vw + 1vh + 1.5vmin);
-}
-
-html, body {
-  height: 100%;
-  margin: 0;
-} 
- 
-.container {
-  margin: 0 auto;
-}
-
-body {
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #010a00;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-family: 'Press Start 2P', cursive; 
-
-}
-
-h2 {
-  font-weight: 100;
+  height: 90px;
+  color: white;
+  width: 100%;
   text-align: center;
-  text-transform: uppercase;
+  margin: auto;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 5px;
+  text-shadow: -2px 0 0 #fdff2a,
+    -4px 0 0 #df4a42,
+    2px 0 0 #91fcfe,
+    4px 0 0 #4405fc;
+  animation: blink 1s steps(4, start) infinite
 }
+   
+ @keyframes blink {
+   to {
+     visibility: hidden
+   }
+ }
+ 
+  
