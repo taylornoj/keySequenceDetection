@@ -2,7 +2,7 @@
 
 Day 12 from the [JavaScript 30 challenge](https://github.com/wesbos/JavaScript30) is quick and fun.  The code itself is quite simplistic but you can get really creative with your approach, which I love!
 
-The idea of the website is simple - enter the Konami code to unlock a suprise.  In this case, the suprise is sparkly unicorns and rainbows.  Very 90's Lisa Frank.
+The idea of the website is simple - enter the Konami code to unlock a surprise.  In this case, the suprise is sparkly unicorns and rainbows.  Very 90's Lisa Frank.
 
 ![gif of app](https://github.com/taylornoj/keySequenceDetection/blob/master/docs/ezgif.com-gif-maker%20(8).gif?raw=true)
 
